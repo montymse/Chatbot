@@ -1,0 +1,29 @@
+<section class="msger">
+  <header class="msger-header">
+      {% load static %}
+      <link rel="stylesheet" href="{% static 'style.css' %}">
+    <div class="msger-header-title">
+         <form class="msger-inputarea">
+             <form action="" method="get">
+                <button id="leave" class = "msger-leave-btn" name="LeaveChat" value="leave">Forlad chat</button>
+            </form>
+         </form>
+      <i class="fas fa-comment-alt"></i>
+    </div>
+    <div class="msger-header-options">
+      <span><i class="fas fa-cog"></i></span>
+    </div>
+  </header>
+
+  <main class="msger-chat" id="chat-log">
+
+  </main>
+
+  <div class="msger-inputarea">
+      <input id="chat-message-input" type="text" class="msger-input" placeholder="Indtast din besked..."><br>
+    <input id="chat-message-submit" type="button" value="Send" class="msger-send-btn">
+  </div>
+      {{ user_name|json_script:"user-name" }}
+      {{ room_name|json_script:"room-name" }}
+      <script src="{% static 'myChatScript.js' %}" type="text/javascript"></script>
+</section>

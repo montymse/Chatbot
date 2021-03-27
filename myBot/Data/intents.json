@@ -1,0 +1,111 @@
+{
+  "intents": [
+    {
+      "tag": "hilsen",
+      "patterns": [
+        "Hej",
+        "Hejsa",
+        "Hey",
+        "Goddag",
+        "Halløj",
+        "Hello",
+        "Dav"
+      ],
+      "responses": [
+        "Hej, jeg er en chatbot! Hvad kan jeg hjælpe med :-)",
+        "Hej, tak for besøget",
+        "Halløj, hvad kan jeg gøre for dig?",
+        "Hey, hvad kan jeg hjælpe dig med?"
+      ]
+    },
+    {
+      "tag": "afsked",
+      "patterns": [
+        "Farvel", 
+        "Vi ses",
+        "Bye",
+        "På gensyn",
+        "Nej, det var det hele"
+      ],
+      "responses": [
+        "Tak for besøget, og goddag",
+        "Forsat goddag",
+        "På gensyn"
+      ]
+    },
+    {
+      "tag": "tak",
+      "patterns": [
+        "Tak", 
+        "Tak skal du have",
+        "Tusind tak"
+      ],
+      "responses": [
+        "Glad for at kunne hjælpe", 
+        "Tak, var der andet jeg kunne hjælpe med?", 
+        "Min fornøjelse"
+      ]
+    },
+    {
+      "tag": "produkter",
+      "patterns": [
+        "Hvilke produkter sælger i?",
+        "Hvilke slags varer har i?",
+        "Hvad sælger i?"
+      ],
+      "responses": [
+        "Vi tilbyder lave priser og god service på forbrugerelektronik",
+        "Vi sælger forbrugerelektronik såsom laptops, smartphones og TV til konkurrencedygtige priser"
+      ]
+    },
+    {
+      "tag": "betalinger",
+      "patterns": [
+        "Tager i imod Mobilepay?",
+        "Accepterer i kortbetaling?",
+        "Kan man bruge gavekort?",
+        "Kan man betale kontant?"
+      ],
+      "responses": [
+        "Vi tager imod kort og kontant samt Mobilepay",
+        "Du kan betale med kort, kontant, Mobilepay og vores gavekort"
+      ]
+    },
+    {
+      "tag": "åbningstider",
+      "patterns": [
+        "Hvilke åbningstider har i?",
+        "Hvornår åbner jeres butikker",
+        "Hvornår lukker jeres butikker"  
+      ],
+      "responses": [
+        "De fleste af vores butikker har åbent mellem 10-20 alle hverdage og 10-18 i weekender",
+        "Du altid velkommen i vores varehuse mellem 10-20 i hverdage og 10-18 i weekender"
+      ]
+    },
+    {
+      "tag": "returnering",
+      "patterns": [
+        "Kan jeg returnere min vare?",
+        "Hvordan returnerer jeg et produkt?",
+        "Kan jeg fortryde mit køb?"       
+      ],
+      "responses": [
+        "Ja, inden for 30 dage. Produktet skal være i samme stand, som da du købte det og de skal medbringe en kvittering",
+        "Du kan returnerer dit produkt hvis det købt inden for 30 dage. Husk at medbringe kvittering"
+      ]
+    },
+    {
+      "tag": "levering",
+      "patterns": [
+        "Hvad er jeres leveringstid",
+        "Hvor lang tid tager jeres forsendelser?",
+        "Hvornår får jeg min levering?"
+      ],
+      "responses": [
+        "Vi kan leverer indenfor 3-5 dage",
+        "En typisk leveringstid er 3-5 dage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% load static %}
+      <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title> Velkommen </title>
+</head>
+<body>
+    <form method='POST' class="msger-inputarea" > {% csrf_token %}
+	{{form.as_p}}
+
+	    <input type='submit' value='Videre' class="msger-send-btn">
+    </form>
+</body>
+</html>
