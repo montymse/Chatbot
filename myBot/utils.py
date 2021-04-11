@@ -4,6 +4,7 @@ import nltk
 from nltk.stem.snowball import SnowballStemmer
 import json
 
+nltk.download('punkt') # If not already downloaded, this command will download the data package for tokenizing words
 
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
